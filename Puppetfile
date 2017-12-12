@@ -104,3 +104,7 @@ mod 'f5-f5',
 
 mod 'puppetlabs-azure', '1.2.0'
 mod 'puppetlabs-wsus_client', '1.0.3'
+
+mod 'sample_diff',
+  :git => 'https://github.com/gregloughmiller2/sample_diff.git'
+

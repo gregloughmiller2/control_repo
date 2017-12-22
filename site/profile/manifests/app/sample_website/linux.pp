@@ -1,6 +1,6 @@
 class profile::app::sample_website::linux (
   String $doc_root = '/var/www/html',
-  Integer $webserver_port = 8787,
+  Integer $webserver_port = 8788,
   String $website_source_dir = 'puppet:///modules/profile/app/sample_website'
 ) {
 

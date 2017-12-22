@@ -6,7 +6,7 @@ defaults:
 
 hierarchy:
   - name: 'Environment data'
-    lookup_key: eyaml_lookup_key
+#####    lookup_key: eyaml_lookup_key
     paths:
       - 'nodes/%{::fqdn}.yaml'
       - 'location/%{::location}/%{::role}.yaml'
@@ -14,6 +14,6 @@ hierarchy:
       - 'role/%{::role}.yaml'
       - 'location/%{::location}.yaml'
       - 'common.yaml'
-    options:
-      pkcs7_private_key: '/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem'
-      pkcs7_public_key:  '/etc/puppetlabs/puppet/keys/public_key.pkcs7.pem'
+####    options:
+####      pkcs7_private_key: '/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem'
+####      pkcs7_public_key:  '/etc/puppetlabs/puppet/keys/public_key.pkcs7.pem'
